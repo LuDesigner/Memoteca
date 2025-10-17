@@ -12,6 +12,10 @@ const ui = {
             alert('Erro ao renderizar pensamentos')
         }
     },
+
+    limparFormulario() {
+    document.getElementById("pensamento-form").reset();
+    },
     
     adicionarPensamentoNaLista(pensamento) {
         const listaPensamentos = document.getElementById("lista-pensamentos")
