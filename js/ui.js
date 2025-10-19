@@ -7,6 +7,7 @@ const ui = {
     document.getElementById("pensamento-id").value = pensamento.id
     document.getElementById("pensamento-conteudo").value = pensamento.conteudo
     document.getElementById("pensamento-autoria").value = pensamento.autoria
+    document.getElementById("pensamento-data").value = pensamento.data
   },
 
   limparFormulario() {
@@ -54,8 +55,13 @@ const ui = {
     pensamentoConteudo.textContent = pensamento.conteudo
     pensamentoConteudo.classList.add("pensamento-conteudo")
 
+    const pensamentoData = document.createElement("div")
+    pensamentoData.textContent = pensamento.data
+    pensamentoData.classList.add("pensamento-data")
+
     const pensamentoAutoria = document.createElement("div")
-    pensamentoAutoria.textContent = pensamento.autoria
+    const dataFormatada = pensamento.data.toLocaleDateString('pt-BR')
+    pensamentoData.textContent = dataFormatada
     pensamentoAutoria.classList.add("pensamento-autoria")
 
     const botaoEditar = document.createElement("button")
@@ -108,6 +114,7 @@ const ui = {
     li.appendChild(iconeAspas)
     li.appendChild(pensamentoConteudo)
     li.appendChild(pensamentoAutoria)
+    li.appendChild(pensamentoData)
     li.appendChild(icones)
     listaPensamentos.appendChild(li)
   }
