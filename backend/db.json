@@ -2,17 +2,15 @@
   "pensamentos": [
     {
       "id": "4c7d",
-      "favorito": false,
       "conteudo": "Da vida reclama, mas sem ela não vive!",
       "autoria": "Mestre Yoda",
-      "data": "2025-01-15T10:32:45.527Z"
+      "data": "2025-01-01"
     },
     {
       "id": "68uy",
-      "favorito": false,
       "conteudo": "Esse é de laranja que parece de limão, mas tem gosto de tamarindo!",
       "autoria": "Chaves",
-      "data": "2025-02-03T14:20:11.183Z"
+      "data": "2025-02-28"
     },
     {
       "id": "b807",
@@ -23,10 +21,9 @@
     },
     {
       "id": "9f3c",
-      "favorito": false,
       "conteudo": "Você não é todo mundo!",
-      "autoria": "Mãe",
-      "data": "2025-04-07T21:15:59.604Z"
+      "autoria": "Mãe Ana",
+      "data": "2025-10-19"
     },
     {
       "id": "6a2b",
